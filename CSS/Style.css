@@ -39,14 +39,16 @@ li {
     }
 
 .sign-btns{
-    float: right;
-    margin-top: 30px;
-    margin-right: 68px;
+    display: inline-block;
 }
+
 .btn-signin{
     width: 120px;
     height: 60px;
+    margin-left: 752px;
+    margin-top: 30px;
    
+    
     line-height: 24px;
     letter-spacing: 2%;
     font-size: 16px;
@@ -62,6 +64,7 @@ li {
 .btn-signup{
     width: 120px;
     height: 60px;
+    margin-top: 30px;
 
     line-height: 24px;
     letter-spacing: 2%;
@@ -81,8 +84,7 @@ li {
     margin-left: 200px;
     width: 495px;
     height: 152px;
-
-    align-items: top;
+    
     line-height: 76px;
     letter-spacing: 2%;
     font-size: 72px;
@@ -98,7 +100,6 @@ li {
     width: 539px;
     height: 96pxpx;
 
-    align-items: top;
     line-height: 32px;
     letter-spacing: 2%;
     font-size: 20px;
@@ -129,9 +130,12 @@ li {
 }
 
 section{
-    display: inline-block;
+    display: inline-block;    
 }
-img{
+
+#img-girl{
+    margin-left: 196px;
     width: 653px;
     height: 604px;
 }
+
